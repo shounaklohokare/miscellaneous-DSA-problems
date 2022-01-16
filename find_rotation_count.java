@@ -10,8 +10,7 @@ public class RotationCount {
 
 		
 		int pivot = findPivot(arr1);  // pivot is the largest element in the array
-		// index of pivot + 1 is the number of times array was rotated
-		pivot++;
+		pivot++; 		// index of pivot + 1 is the number of times array was rotated
 		System.out.println("The original array was rotated " + pivot + " times.");
 		
 	}
